@@ -22,7 +22,7 @@ def main():
         print(f"{i}. {sentence}")
     
     print("-" * 40)
-    print(f"✨ Story complete! Generated {len(story)} sentences from {len(story)} contributors.")
+    print(f"✨ Story complete! Generated {len(story)} sentences from {len(story)} contributors. Smash that like button and subscribe for more! ✨")
     print("\nTo contribute, edit your bot class in the bots/ directory!")
 
 if __name__ == "__main__":

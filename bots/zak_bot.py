@@ -9,4 +9,4 @@ class ZakBot(BaseBot):
 
     def get_sentence(self):
 
-        return f"My name is {self.name}. I am cool"
+        return f"My name is {self.name}. I made the code. It was difficult to get the repository to work. But unfortunately, something went wrong. Now I can't do anything but sing this stupid song!"
