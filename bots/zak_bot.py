@@ -9,7 +9,7 @@ class ZakBot(BaseBot):
 
     def get_sentence(self):
 
-        print("wait hang on gimme 5 seconds")
+        print("wait hang on gimme 5 seconds\n\n\n")
 
         time.sleep(5)
 
