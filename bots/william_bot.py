@@ -15,14 +15,37 @@ class WilliamBot(BaseBot):
         super().__init__("William")
 
     def generate_story(self):
-        character = random.choice(self.characters)
-        setting = random.choice(self.settings)
-        action = random.choice(self.actions)
-        conflict = random.choice(self.conflicts)
-        resolution = random.choice(self.resolutions)
+            character = random.choice(self.characters)
+            setting = random.choice(self.settings)
 
-        story = f"{character} {setting} {action} {conflict}, {resolution}."
-        return story
+            # Part 1: Beginning
+            part1 = (
+                f"{character.capitalize()} {setting} lived a quiet and peaceful life, far from the troubles of the world. "
+                f"They spent their days exploring, learning, and dreaming of adventure, unaware that fate had other plans."
+            )
+
+            # Part 2: Middle (Two action-conflict events)
+            action1 = random.choice(self.actions)
+            conflict1 = random.choice(self.conflicts)
+            action2 = random.choice(self.actions)
+            conflict2 = random.choice(self.conflicts)
+
+            part2 = (
+                f" One fateful morning, everything changed when they {action1} {conflict1}. "
+                f"As they searched for answers, they soon {action2} {conflict2}. "
+                f"Each step brought new danger, but also a glimmer of hope."
+            )
+
+            # Part 3: End
+            resolution = random.choice(self.resolutions)
+            part3 = (
+                f" After facing countless challenges, {character.split()[1]} stood tall against the odds. "
+                f"Through wisdom, bravery, and heart, they {resolution}. "
+                f"The world would never forget their journey."
+            )
+
+            return part1 + part2 + part3
+
 
     def get_sentence(self):
         return self.generate_story()
