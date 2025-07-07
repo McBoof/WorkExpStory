@@ -278,5 +278,5 @@ class NathanBot(BaseBot):
             f"{self.name} whispered a prophecy: 'When {character} arrives {location}, "
             f"they must harness {emotion} or risk losing everything.' "
             f"In that moment, {character} {outcome} The fate of the story hung in balance.\n\n"
-            f"{random.choice(jokes)}\n {random.choice(punchlines)}"
+            f"{random.choice(jokes)}\n {random.choice(punchlines)}\n"
         )
