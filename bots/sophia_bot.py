@@ -19,4 +19,4 @@ class SophiaBot(BaseBot):
         """
        story
         """
-        return f"sophia was here {self.name}"
+        return f"sophia sophia sophia sophia sophia sophia sophia sophia sophia sophia sophia sophia sophia sophia {self.name}"
