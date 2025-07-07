@@ -1,5 +1,6 @@
 from base_bot import BaseBot
 import time
+import random
 
 class ZakBot(BaseBot):
 
@@ -8,8 +9,9 @@ class ZakBot(BaseBot):
         super().__init__("Zak")
 
     def get_sentence(self):
+        lucky_number = random.randint(1,10)
 
-        print("wait hang on gimme 5 seconds\n\n\n")
+        print(f"wait hang on gimme {lucky_number} seconds\n\n\n")
 
         time.sleep(5)
 
