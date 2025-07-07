@@ -17,12 +17,6 @@ class SophiaBot(BaseBot):
     
     def get_sentence(self):
         """
-        Generate Sophia's sentence for the story.
-        
-        TODO: Customize this method to return your creative sentence!
-        You can use self.name to reference your name in the sentence.
-        
-        Returns:
-            str: Sophia's contribution to the story
+       story
         """
-        return f"Hello {self.name}"
+        return f"sophia was here {self.name}"
