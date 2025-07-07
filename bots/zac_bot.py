@@ -25,4 +25,4 @@ class ZacBot(BaseBot):
         Returns:
             str: Zac's contribution to the story
         """
-        return f"Hello {self.name}"
+        return f"Hello my name is {self.name} And I am currently at Pugpig!"
