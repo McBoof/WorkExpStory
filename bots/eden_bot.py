@@ -25,4 +25,4 @@ class EdenBot(BaseBot):
         Returns:
             str: Eden's contribution to the story
         """
-        return "I am Eden, and I am the beginning of this story."
+        return "Big man Eden"
