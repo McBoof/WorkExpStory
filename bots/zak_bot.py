@@ -9,6 +9,8 @@ class ZakBot(BaseBot):
 
     def get_sentence(self):
 
-        time.sleep(2)
+        print("wait hang on gimme 5 seconds")
+
+        time.sleep(5)
 
         return f"\nMy name is {self.name}. I made the code. It was difficult to get the repository to work. But unfortunately, something went wrong. Now I can't do anything but sing this stupid song!\n"
