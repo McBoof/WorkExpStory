@@ -15,6 +15,7 @@ from .nathan_bot import NathanBot
 from .noah_bot import NoahBot
 from .samuel_bot import SamuelBot
 from .william_bot import WilliamBot
+from .jon_bot import JonBot
 
 # List of all available bot classes
 ALL_BOTS = [
@@ -28,10 +29,11 @@ ALL_BOTS = [
     NathanBot,
     NoahBot,
     SamuelBot,
-    WilliamBot
+    WilliamBot,
+    JonBot
 ]
 
 __all__ = [
     'WillowBot', 'KateBot', 'KatieBot', 'SophiaBot', 'ZacBot', 'ZakBot',
-    'EdenBot', 'NathanBot', 'NoahBot', 'SamuelBot', 'WilliamBot', 'ALL_BOTS'
+    'EdenBot', 'NathanBot', 'NoahBot', 'SamuelBot', 'WilliamBot','JonBot', 'ALL_BOTS'
 ]
