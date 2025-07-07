@@ -25,4 +25,7 @@ class NathanBot(BaseBot):
         Returns:
             str: Nathan's contribution to the story
         """
-        return f"Hello {self.name}"
+        actions = ["woke up early", "found a mysterious map", "felt a strange feeling", "read the headlines", "took a bite of his breakfast", "said hello to his mother", "fell down the stairs", "walked into a lamppost"]
+        names = ["Eden", "Noah", "Kate", "Katie", "He", "Samuel", "Sophia", "William", "Willow", "Zac", "Zak", "Jon"]
+        endings = ["die", "disappear", "get eaten", "win the lottery", "go to space"]
+        return f"{self.name} {random.choice(actions)}, and knew that {random.choice(names)} would {random.choice(endings)} today."
