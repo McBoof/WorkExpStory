@@ -16,13 +16,4 @@ class WilliamBot(BaseBot):
         super().__init__("William")
     
     def get_sentence(self):
-        """
-        Generate William's sentence for the story.
-        
-        TODO: Customize this method to return your creative sentence!
-        You can use self.name to reference your name in the sentence.
-        
-        Returns:
-            str: William's contribution to the story
-        """
-        return f"Hello {self.name}"
+        return f"My name is {self.name}!"
