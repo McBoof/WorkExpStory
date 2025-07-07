@@ -19,4 +19,4 @@ class SophiaBot(BaseBot):
         """
        story
         """
-        return f"A single backpack, a fading map, and a quiet road ahead. laptops, unfamiliar, yet exciting.real, something worth remembering {self.name}"
+        return f"Eli found the map in a dusty bookstore—hand-drawn, no names, just a red dot labeled Start here. On a whim, he followed it.The road led to places not on any GPS. A tea cart in the woods. Lanterns swaying with no wind. People who knew him before he spoke.Each night, the map changed—new dot, new path. It wasn’t guiding him across land, but through himself.By the final mark, Eli didn’t need the map anymore. He had become the story it was trying to tell.{self.name}"
