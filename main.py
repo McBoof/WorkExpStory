@@ -8,7 +8,7 @@ from story_orchestrator import StoryOrchestrator
 
 def main():
     """Main function to run the collaborative storytelling program."""
-    print("🌟 Welcome to the Collaborative Storytelling Program! 🌟")
+    print("🌟 Welcome to the Crazy Collaborative Storytelling Program! 🌟")
     print("=" * 60)
     
     # Create and run the story orchestrator
