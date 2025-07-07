@@ -41,7 +41,7 @@ class StoryOrchestrator:
                 sentence = bot.get_sentence()
                 if sentence:
                     story_sentences.append(sentence)
-                    print(f"{sentence}")
+                    print(f"{sentence}\n")
                 else:
                     print(f"  {i}. {bot.name}: (no contribution)")
             except Exception as e:

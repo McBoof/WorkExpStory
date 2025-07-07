@@ -4,6 +4,7 @@ Contributes one sentence to the collaborative story.
 """
 
 from base_bot import BaseBot
+import random 
 
 class EdenBot(BaseBot):
     """
@@ -16,13 +17,7 @@ class EdenBot(BaseBot):
         super().__init__("Eden")
     
     def get_sentence(self):
-        """
-        Generate Eden's sentence for the story.
-        
-        TODO: Customize this method to return your creative sentence!
-        You can use self.name to reference your name in the sentence.
-        
-        Returns:
-            str: Eden's contribution to the story
-        """
-        return "Big man Eden"
+        actions = ["woke up early", "found a mysterious map", "felt a strange feeling", "read the headlines", "took a bite of his breakfast", "said hello to his mother", "fell down the stairs", "walked into a lamppost"]
+        names = ["Eden", "Noah", "Kate", "Katie", "He", "Samuel", "Sophia", "William", "Willow", "Zac", "Zak", "Jon"]
+
+        return f"{self.name} {actions[random.randint(0,len(actions)-1)]} and {names[random.randint(0,len(names)-1)]} {actions[random.randint(0,len(actions)-1)]}"
