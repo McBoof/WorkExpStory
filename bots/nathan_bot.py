@@ -30,4 +30,29 @@ class NathanBot(BaseBot):
         names = ["Eden", "Noah", "Kate", "Katie", "He", "Samuel", "Sophia", "William", "Willow", "Zac", "Zak", "Jon"]
         endings = ["die", "disappear", "get eaten", "win the lottery", "go to space", "eat some food"]
         times = ["that very second", "today", "tomorrow", "next week", "in 85 years", "in who knows how long", "while trying to save"+ random.choice(names)]
-        return f"{self.name} {random.choice(actions)}, and knew that {random.choice(names)} would {random.choice(endings)} {random.choice(times)}."
+
+        characters = ["Eden", "Noah", "Kate", "Katie", "Samuel", "Sophia", "William", "Willow", "Zac", "Jon"]
+        locations = ["in the haunted forest", "at the old lighthouse", "inside the abandoned castle", "on the mountain peak", "beneath the city streets"]
+        emotions = ["fear", "hope", "despair", "determination", "curiosity", "anger"]
+
+        character = random.choice(characters)
+        location = random.choice(locations)
+        emotion = random.choice(emotions)
+
+        if emotion in ["fear", "despair"]:
+            outcome = f"faced their darkest nightmare {location}, where even {character}’s courage faltered."
+        elif emotion == "hope":
+            outcome = f"found a glimmer of hope {location}, sparking a fire in their heart."
+        else:
+            outcome = f"embraced {emotion}, preparing for the challenges that lay ahead {location}."
+
+
+
+
+        
+        return (
+            f"{self.name} {random.choice(actions)}, and knew that {random.choice(names)} would {random.choice(endings)} {random.choice(times)}./n"
+            f"{self.name} whispered a prophecy: 'When {character} arrives {location}, "
+            f"they must harness {emotion} or risk losing everything.' "
+            f"And in that moment, the world held its breath."
+        )
