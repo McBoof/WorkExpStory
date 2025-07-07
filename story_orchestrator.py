@@ -22,7 +22,6 @@ class StoryOrchestrator:
             try:
                 bot_instance = bot_class()
                 self.bots.append(bot_instance)
-                print(f"✅ Initialized {bot_instance}")
             except Exception as e:
                 print(f"❌ Failed to initialize {bot_class.__name__}: {e}")
     
@@ -42,7 +41,7 @@ class StoryOrchestrator:
                 sentence = bot.get_sentence()
                 if sentence:
                     story_sentences.append(sentence)
-                    print(f"  {i}. {bot.name}: {sentence}")
+                    print(f"{sentence}")
                 else:
                     print(f"  {i}. {bot.name}: (no contribution)")
             except Exception as e:

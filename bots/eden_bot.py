@@ -25,4 +25,4 @@ class EdenBot(BaseBot):
         Returns:
             str: Eden's contribution to the story
         """
-        return f"Hello {self.name}"
+        return "I am Eden, and I am the beginning of this story."
