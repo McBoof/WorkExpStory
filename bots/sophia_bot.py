@@ -19,4 +19,4 @@ class SophiaBot(BaseBot):
         """
        story
         """
-        return f"sophia was here {self.name}"
+        return f"A single backpack, a fading map, and a quiet road ahead. laptops, unfamiliar, yet exciting.real, something worth remembering {self.name}"

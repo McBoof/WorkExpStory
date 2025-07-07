@@ -16,7 +16,7 @@ class BaseBot:
         Args:
             name (str): The name of the bot contributor
         """
-        self.name = "evil " + name
+        self.name = name
     
     def get_sentence(self):
         """

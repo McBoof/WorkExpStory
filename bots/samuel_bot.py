@@ -25,4 +25,4 @@ class SamuelBot(BaseBot):
         Returns:
             str: Samuel's contribution to the story
         """
-        return f"Hello {self.name}"
+        return f"Long live  {self.name}king of kings as he rules the world with an iron fist. and leads his people to victory against the many offenders and their allies."

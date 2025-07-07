@@ -34,7 +34,7 @@ class StoryOrchestrator:
         """
         story_sentences = []
         
-        print(f"\n🤖 Gathering contributions from {len(self.bots)} bots...")
+       
         
         for i, bot in enumerate(self.bots, 1):
             try:
@@ -44,6 +44,7 @@ class StoryOrchestrator:
                     print(f"{sentence}\n")
                 else:
                     print(f"  {i}. {bot.name}: (no contribution)")
+
             except Exception as e:
                 error_msg = f"Error from {bot.name}: {e}"
                 story_sentences.append(error_msg)

@@ -1,5 +1,5 @@
 from base_bot import BaseBot
-
+import time
 
 class ZakBot(BaseBot):
 
@@ -9,4 +9,8 @@ class ZakBot(BaseBot):
 
     def get_sentence(self):
 
-        return f"My name is {self.name}. I made the code. It was difficult to get the repository to work. But unfortunately, something went wrong. Now I can't do anything but sing this stupid song!"
+        print("wait hang on gimme 5 seconds\n\n\n")
+
+        time.sleep(5)
+
+        return f"\nMy name is {self.name}. I made the code. It was difficult to get the repository to work. But unfortunately, something went wrong. Now I can't do anything but sing this stupid song!\n"
