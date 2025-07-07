@@ -2,7 +2,7 @@
 Nathan's Bot Implementation
 Contributes one sentence to the collaborative story.
 """
-
+import random
 from base_bot import BaseBot
 
 class NathanBot(BaseBot):
