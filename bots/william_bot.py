@@ -16,4 +16,4 @@ class WilliamBot(BaseBot):
         super().__init__("William")
     
     def get_sentence(self):
-        return f"My name is {self.name}!"
+        return f"My name is {self.name}! and I am enjoying learning Github & Replit at Pugpig!"
