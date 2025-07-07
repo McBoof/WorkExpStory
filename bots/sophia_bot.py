@@ -19,4 +19,4 @@ class SophiaBot(BaseBot):
         """
        story
         """
-        return f"Eli found the map in a dusty bookstore—hand-drawn, no names, just a red dot labeled Start here. On a whim, he followed it.The road led to places not on any GPS. A tea cart in the woods. Lanterns swaying with no wind. People who knew him before he spoke.Each night, the map changed—new dot, new path. It wasn’t guiding him across land, but through himself.By the final mark, Eli didn’t need the map anymore. He had become the story it was trying to tell.{self.name}"
+        return f"Jake thought the graveyard was just an old place—silent, forgotten. But when the moon rose, the silence turned into whispers.The cracked headstones seemed to shift, leaning closer as he walked. Suddenly, cold fingers grabbed his ankle from the dirt, dragging him toward an open grave filled with rotting hands clawing from below.The air reeked of decay as the dead rose, their eyes empty but burning with hunger. Jake tried to run, but the ground swallowed his screams, pulling him under the earth where the lost whispered, “Stay with us… forever.”{self.name}"
